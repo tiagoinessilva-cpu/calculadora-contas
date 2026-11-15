@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Contas e Gorjetas</title>
-    
-    <!-- O teu código oficial do AdSense integrado -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5376974314895899"
-     crossorigin="anonymous"></script>
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5376974314895899" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-white min-h-screen p-4 sm:p-8 flex flex-col items-center justify-between">
@@ -18,14 +14,11 @@
             <p class="text-slate-400 text-sm mt-1">Divide a conta e calcula gorjetas num instante.</p>
         </header>
 
-        <!-- Valor da Conta -->
         <div class="bg-slate-800 p-4 rounded-xl mb-4">
             <label class="text-xs text-slate-300 font-semibold block mb-2">Valor Total da Conta (€)</label>
-            <input type="number" id="conta" value="50.00" oninput="calcular()" 
-                   class="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-white text-lg font-bold focus:outline-none focus:border-indigo-500">
+            <input type="number" id="conta" value="50.00" oninput="calcular()" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-white text-lg font-bold focus:outline-none focus:border-indigo-500">
         </div>
 
-        <!-- Gorjeta -->
         <div class="bg-slate-800 p-4 rounded-xl mb-4">
             <div class="flex justify-between text-xs text-slate-300 mb-2">
                 <span>Percentagem de Gorjeta</span>
@@ -34,7 +27,6 @@
             <input type="range" id="gorjeta" min="0" max="25" step="5" value="10" oninput="calcular()" class="w-full accent-indigo-500">
         </div>
 
-        <!-- Pessoas -->
         <div class="bg-slate-800 p-4 rounded-xl mb-6">
             <div class="flex justify-between text-xs text-slate-300 mb-2">
                 <span>Número de Pessoas</span>
@@ -43,7 +35,6 @@
             <input type="range" id="pessoas" min="1" max="10" step="1" value="2" oninput="calcular()" class="w-full accent-indigo-500">
         </div>
 
-        <!-- Resultados -->
         <div class="bg-indigo-950/40 border border-indigo-500/30 p-4 rounded-xl text-center space-y-2 mb-6">
             <div>
                 <span class="text-xs text-slate-400">Total por Pessoa:</span>
@@ -51,14 +42,12 @@
             </div>
         </div>
 
-        <!-- Texto Descritivo (Necessário para a Google avaliar a utilidade do site) -->
         <div class="text-xs text-slate-400 space-y-2 border-t border-slate-800 pt-4">
             <h2 class="font-bold text-slate-300">Sobre esta ferramenta:</h2>
             <p>Esta calculadora gratuita de contas e gorjetas foi desenvolvida para ajudar grupos a calcular de forma rápida e transparente quanto cada pessoa deve pagar num restaurante, café ou serviço partilhado.</p>
         </div>
     </div>
 
-    <!-- Rodapé com link para a Política de Privacidade -->
     <footer class="mt-6 text-center text-xs text-slate-500">
         <a href="privacidade.html" class="hover:text-indigo-400 underline">Política de Privacidade</a>
     </footer>
